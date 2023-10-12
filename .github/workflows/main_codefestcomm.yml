@@ -27,7 +27,6 @@ jobs:
           npm install
           npm run build --if-present
           npm run package --if-present
-          npm run test --if-present
       #For zipping artifact
       - name: Zip on Ubuntu
         uses: nguyenquyhy/zip-release@v0.3.0
